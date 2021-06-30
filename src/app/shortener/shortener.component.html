@@ -1,0 +1,6 @@
+<p>Simple URL Shortener</p>
+
+<input type="text" [formControl]="url">
+<button (click)="shorten()">Shorten</button>
+<br>
+<span>Result: {{this.shortened_url}}</span>
